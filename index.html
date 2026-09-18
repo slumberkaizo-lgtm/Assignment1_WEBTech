@@ -1,0 +1,70 @@
+<html>
+<body>
+<div class="frame title-frame">ASSIGNMENT 1</div>
+
+  <div class="tasks">
+    <a class="frame task-frame" href="Task1/index1.html">TASK 1</a>
+    <a class="frame task-frame" href="Task2/index2.html">TASK 2</a>
+    <a class="frame task-frame" href="Task3/index3.html">TASK 3</a>
+    <a class="frame task-frame" href="Task4/index4.html">TASK 4</a>
+  </div>
+</body>
+</html>
+
+<style>
+    h1{
+        color:rgb(163, 243, 189, 0.90);
+    }
+    body {
+        margin: 0;
+        height: 100vh;
+        background-image: url('https://cdn.imageurlgenerator.com/uploads/f28d24a8-4545-47ce-8558-13779b34f57d.webp');
+        background-repeat: repeat;
+        background-size: 749px;
+        animation: slideBg 60s linear infinite;
+    }
+
+    @keyframes slideBg {
+        from {
+            background-position: 0 0;
+        }
+
+        to {
+            background-position: 749px 372px;
+        }
+    }
+
+    .frame {
+        background: white;
+        border: 3px solid black;
+        border-radius: 10px;
+        text-align: center;
+        box-shadow: 4px 4px 0 black;
+    }
+
+    .title-frame {
+        padding: 20px 40px;
+        font-size: 28px;
+        font-weight: bold;
+        margin-bottom: 40px;
+    }
+
+    .tasks {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .task-frame {
+        width: 150px;
+        padding: 15px;
+        font-size: 18px;
+        text-decoration: none;
+        color: black;
+    }
+
+    .task-frame:hover {
+        background: #eee;
+    }
+</style>
