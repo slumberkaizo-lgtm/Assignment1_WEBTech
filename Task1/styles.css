@@ -1,9 +1,29 @@
 p{
-    color: darkslategray
+    color: darkslategray;
 }
-#test_ID{
-    background-color:coral
+.test_ID{
+    background-color:coral;
 }
-.links{
-    font-size: 36px
+#link{
+    font-size: 36px;
+}
+.name_group_info{
+    text-align:center;
+    margin: 80px 0;
+}
+#avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    object-fit: cover;
+    margin: 315px auto;
+    border: 6px solid white;
+}
+.shapka {
+    width: 100%;
+    height: 400px;
+    background-image: url('https://cdn.imageurlgenerator.com/uploads/f28d24a8-4545-47ce-8558-13779b34f57d.webp');
+    background-repeat: repeat;
+    background-size: 749px;
+    display: flex;
 }
